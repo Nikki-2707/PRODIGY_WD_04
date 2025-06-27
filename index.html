@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEHA'S Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Name logo.png " class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="Images/close_30.png" class="fas" onclick="closeMenu()">
+                </ul>
+                <img src="Images/menu_30.png" class="fas" onclick="openMenu()">
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Neha</span> Sharma</h1>
+            </div>
+        </div>
+    </div>
+
+    <!----------------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/photo 3.jpg" alt="Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A self-driven and meticulous Btech final year student with a strong foundation in C Language,
+                        Data Structure, HTML, CSS,
+                        JavaScript, and
+                        modern frameworks like React and also having good Communication and Leadership skills. Eager to
+                        apply and grow
+                        my skills in a
+                        dynamic internship role, contributing to real-world projects and gaining valuable industry
+                        experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>ReactJS</span></li>
+                            <li><span>Data Structure</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>MongoDB</span></li>
+                            <li><span>SQL</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Final Year Student</li>
+                            <li><span>Internship</span><br>Done 1 Month internship at Prodigy Infotech in the field of
+                                Web development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-26</span><br>Pursuing B-Tech IT from SCET Surat</li>
+                            <li><span>2021-22</span><br>Passed HSC Exam from St.Xavier's High School with 80%</li>
+                            <li><span>2019-20</span><br>Passed SSC Exam from Vanita Vishram School with 91%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="Images/code_icon_50.png" alt="code_icon">
+                    <h2>Web Designer</h2>
+                    <p>Designing User Interface of the website in attractive and responsive manner.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="Images/database_icon_50.png" alt="database_icon">
+                    <h2>Data Administrator</h2>
+                    <p>Managing, Fetching and Querying large Data using Structured Query Language(SQL) and MongoDB.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <img src="Images/software_icon_50.png" alt="software_icon">
+                    <h2>Software Engineer</h2>
+                    <p>Designing New Softwares and maitaining the softwares of companies.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img class="work-img" src="Images/Work 1.png" alt="Work1">
+                    <div class="layer">
+                        <h3>Responsive Landing Page</h3>
+                        <p>
+                            Basic Pizza Website Landing Page with responsiveness.To know more, click the link below.
+                        </p>
+                        <a href="#"><img src="Images/link_pink_15.png"></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="work-img" src="Images/Work 2.png" alt="Work2">
+                    <div class="layer">
+                        <h3>Stopwatch</h3>
+                        <p>
+                            User Friendly Website with functions for starting, pausing,
+                            and resetting the stopwatch, as well as tracking and displaying lap times.To know more,
+                            click the link below.
+                        </p>
+                        <a href="#"><img src="Images/link_pink_15.png"></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="work-img" src="Images/Work 3.png" alt="Work3">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>Interactive and engaging tic-tac-toe game.Users can play against each other or against an AI
+                            opponent.To know more, click the link below.
+                        </p>
+                        <a href="#"><img src="Images/link_pink_15.png"></a>
+                    </div>
+                </div>
+
+                <div class="seemore" id="seeallwork">
+                    <div class="work">
+                        <img class="work-img" src="Images/Work 4.png" alt="Work4">
+                        <div class="layer">
+                            <h3>Weather App</h3>
+                            <p>
+                                Web page that fetches weather data from a weather API based on the
+                                user-inputted location. Display the current weather conditions, temperature, and other
+                                relevant information. To know more, click the link below.
+                            </p>
+                            <a href="#"><img src="Images/link_pink_15.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img class="work-img" src="Images/Work 5.jpeg" alt="Work5">
+                        <div class="layer">
+                            <h3>NewsKeeda App</h3>
+                            <p>
+                                Web page that fetches News data from a News API based on the
+                                user-Selected field. Display the latest news and its description. To know more, click
+                                the link below.
+                            </p>
+                            <a href="#"><img src="Images/link_pink_15.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img class="work-img" src="Images/Work 6.jpeg" alt="Work6">
+                        <div class="layer">
+                            <h3>NoteCloud App</h3>
+                            <p>
+                                Full Stack Website where the user inputs the tasks and its description. It authenticates
+                                the user and also stores the task in
+                                the Database. To know more, click the link below.
+                            </p>
+                            <a href="#"><img src="Images/link_pink_15.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#portfolio" class="btn" onclick="seeMore()">See more</a>
+        </div>
+    </div>
+
+    <!----------------contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="Images/send_25.png" alt="send">nikkikaushik2707@gmail.com</p>
+                    <p><img src="Images/phone_25.png" alt="phone">0123456789</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="Images/whatsapp_25.png" alt="whatsapp"></a>
+                        <a href="#"><img src="Images/instagram_25.png" alt="instagram"></a>
+                        <a href="#"><img src="Images/x_25.png" alt="X"></a>
+                        <a href="#"><img src="Images/linkedin_25.png" alt="linkedin"></a>
+                    </div>
+                    <a href="Images/Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email-id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Neha . All rights reserved</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
